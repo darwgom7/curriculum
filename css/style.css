@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(5, 157, 192);
+}
+
+header h1 {
+    color: whiteSmoke;
+}
+
+.justify-start {
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+}
+
+.justify-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.justify-end {
+    display: flex;
+    justify-content: end;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 280px;
+    max-width: 300px;
+    margin-top: 4rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+}
+
+form input {
+    width: 100%;
+    padding: .5rem;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    box-shadow: 0 0 2px 1px rgb(220, 220, 220);
+}
+
+form input[type=text] {
+    margin-bottom: .8rem;
+    color: rgb(12, 105, 128);
+}
+
+form input[type=submit] {
+    background-color: rgb(5, 157, 192);
+    color: whiteSmoke;
+    cursor: pointer;
+}
+
+form input:focus {
+    box-shadow: 0 0 2px 1px#04D4F0;
+}
+
+form input[type=submit]:hover {
+    box-shadow: 0 0 2px 1px#04D4F0, inset 0 0 2px 2rem rgba(255, 255, 255, .1);
+}
+
+form input[type=submit]:active {
+    box-shadow: 0 0 2px 1px#04D4F0, inset 0 0 2px 2rem rgba(255, 255, 255, .2);
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(5, 157, 192);
+}
+
+footer>small {
+    color: whiteSmoke;
+    margin-right: 1rem;
+}
+
+.output {
+    position: relative;
+    margin-top: 4rem;
+    background-color: rgb(5, 157, 192);
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+}
+
+.output>.info {
+    color: whiteSmoke;
+    padding: 2rem;
+}
+
+.output>.close {
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    background-color: rgb(5, 157, 192);
+    color: whiteSmoke;
+    border-radius: 50%;
+    box-shadow: -1px -1px 4px rgba(0, 0, 0, .4);
+    font-size: 14px;
+    cursor: pointer;
+}
+p .link {
+    font-size: .8rem;
+    text-align: center;
+}
+p .link {
+    line-height: 1.4;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:focus {
+    border-bottom: 1px solid;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+}
+
+a:active {
+    color: whitesmoke;
+}
